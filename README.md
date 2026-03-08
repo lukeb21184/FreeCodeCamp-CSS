@@ -1,2 +1,5 @@
-# FreeCodeCamp-CSS
-Outline and updates of FreeCodeCamps Css Workshops and Labs
+# FreeCodeCamp Practice in HTML
+CSS code outlining features, workshops, and labs
+Using basic syntax to better understanding
+
+
