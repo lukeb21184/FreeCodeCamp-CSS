@@ -1,1 +1,67 @@
+input:focus,
+textarea:focus {
+  border-color: blue;
+  outline: none;
+}
 
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+button:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: blue;
+  background-color: lightblue;
+  box-shadow: 0 0 5px rgba(0,0,255,0.5);
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: blue;
+  font-weight: bold;
+}
+
+input:first-of-type {
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+input, select, textarea, button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  width: auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: steelblue;
+  color: white;
+  font-size: 1em;
+}
