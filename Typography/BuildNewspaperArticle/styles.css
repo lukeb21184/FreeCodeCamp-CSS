@@ -1,4 +1,8 @@
 
+.newspaper{
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
 .name{
   font-size: 2rem;
    font-family: 'Times New Roman', serif;
