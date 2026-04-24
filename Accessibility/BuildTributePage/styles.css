@@ -45,3 +45,6 @@ body {
   color: blue;
   text-decoration: none;
 }
+#tribute-link:hover {
+  text-decoration: underline;
+}
