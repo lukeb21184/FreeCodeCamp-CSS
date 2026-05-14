@@ -30,13 +30,11 @@ tr[class="to-read"] {
 tr[class="in-progress"] {
   background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
 }
-/* All span elements */
 
 span {
   display: inline-block;
 }
 
-/* Status styling */
 
 tr[class="to-read"] .status {
   border: 2px solid orange;
@@ -55,7 +53,6 @@ tr[class="in-progress"] .status {
   padding: 5px 10px;
 }
 
-/* Status and rate size */
 
 span[class="status"],
 span[class^="rate"] {
@@ -64,7 +61,6 @@ span[class^="rate"] {
   padding: 5px;
 }
 
-/* Rating circles */
 
 span[class^="rate"] > span {
   border: 1px solid black;
@@ -74,19 +70,15 @@ span[class^="rate"] > span {
   width: 15px;
   background-color: white;
 }
-/* One rating */
 
 span[class~="one"] > span:first-child {
   background-image: linear-gradient(to right, gold, orange);
 }
 
-/* Two rating */
 
 span[class~="two"] > span:nth-child(-n + 2) {
   background-image: linear-gradient(to right, gold, orange);
 }
-
-/* Three rating */
 
 span[class~="three"] > span {
   background-image: linear-gradient(to right, gold, orange);
