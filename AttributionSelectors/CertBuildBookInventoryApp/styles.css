@@ -43,3 +43,34 @@ tr[class="to-read"] .status {
   background-image: linear-gradient(to right, #ffe29f, #ffa99f);
   padding: 5px 10px;
 }
+tr[class="read"] .status {
+  border: 2px solid green;
+  background-image: linear-gradient(to right, #84fab0, #8fd3f4);
+  padding: 5px 10px;
+}
+
+tr[class="in-progress"] .status {
+  border: 2px solid blue;
+  background-image: linear-gradient(to right, #89f7fe, #66a6ff);
+  padding: 5px 10px;
+}
+
+/* Status and rate size */
+
+span[class="status"],
+span[class^="rate"] {
+  height: 20px;
+  width: auto;
+  padding: 5px;
+}
+
+/* Rating circles */
+
+span[class^="rate"] > span {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 2px;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+}
