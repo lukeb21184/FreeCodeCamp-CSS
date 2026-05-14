@@ -74,3 +74,35 @@ span[class^="rate"] > span {
   width: 15px;
   background-color: white;
 }
+/* One rating */
+
+span[class~="one"] > span:first-child {
+  background-image: linear-gradient(to right, gold, orange);
+}
+
+/* Two rating */
+
+span[class~="two"] > span:nth-child(-n + 2) {
+  background-image: linear-gradient(to right, gold, orange);
+}
+
+/* Three rating */
+
+span[class~="three"] > span {
+  background-image: linear-gradient(to right, gold, orange);
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 2px solid orange;
+  background-image: linear-gradient(to right, #ffe29f, #ffa99f);
+}
+
+tr[class="read"] span[class="status"] {
+  border: 2px solid green;
+  background-image: linear-gradient(to right, #84fab0, #8fd3f4);
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 2px solid blue;
+  background-image: linear-gradient(to right, #89f7fe, #66a6ff);
+}
