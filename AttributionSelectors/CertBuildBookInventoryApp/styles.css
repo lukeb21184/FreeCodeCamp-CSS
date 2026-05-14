@@ -30,3 +30,16 @@ tr[class="to-read"] {
 tr[class="in-progress"] {
   background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
 }
+/* All span elements */
+
+span {
+  display: inline-block;
+}
+
+/* Status styling */
+
+tr[class="to-read"] .status {
+  border: 2px solid orange;
+  background-image: linear-gradient(to right, #ffe29f, #ffa99f);
+  padding: 5px 10px;
+}
