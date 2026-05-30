@@ -1,1 +1,37 @@
 
+
+.secondary-article {
+    grid-area: secondary-article;
+}
+
+.cover-image {
+    grid-area: cover-image;
+}
+
+.small-article1 {
+    grid-area: small-article1;
+}
+
+.small-article2 {
+    grid-area: small-article2;
+}
+
+.small-article3 {
+    grid-area: small-article3;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+article,
+.cover-image {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.cover-image img {
+    max-width: 100%;
+    display: block;
+}
