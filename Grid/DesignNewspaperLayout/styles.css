@@ -1,5 +1,13 @@
 
 
+.title {
+    grid-area: title;
+}
+
+.feature-article {
+    grid-area: feature-article;
+}
+
 .secondary-article {
     grid-area: secondary-article;
 }
