@@ -1,5 +1,9 @@
 
-
+body {
+  font-family: 'Baskervville', serif;
+  color: linen;
+  background-color: rgb(20, 30, 40);
+}
 h1 {
   font-family: 'Anton', sans-serif;
 }
