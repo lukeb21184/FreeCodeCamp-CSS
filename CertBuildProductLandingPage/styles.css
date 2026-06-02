@@ -1,1 +1,105 @@
 
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+#header-img {
+  width: 250px;
+}
+
+#nav-bar {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #0077cc;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#email {
+  width: 300px;
+  padding: 10px;
+}
+
+#submit {
+  padding: 10px 20px;
+  background-color: #f1c40f;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#submit:hover {
+  background-color: #d4ac0d;
+}
+
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#video {
+  max-width: 100%;
+}
+
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+  }
+
+  #nav-bar {
+    margin-top: 10px;
+  }
+
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
